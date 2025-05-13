@@ -16,24 +16,23 @@ The suite is organized into three categories:
 
 1. **Wave Propagation — `miniwave`**  
    A stencil-based PDE kernel used in forward modeling for seismic imaging techniques like RTM and FWI.  
-   [Folder: `miniwave`](./miniwave))
+   [Folder: `miniwave`](./miniwave)
 
-2. **Reverse Time Migration (RTM)**  
+3. **Reverse Time Migration (RTM)**  
    *To Be Defined* — A simplified RTM workflow involving backward propagation and imaging condition.
 
-3. **Full Waveform Inversion (FWI)**  
+4. **Full Waveform Inversion (FWI)**  
    *To Be Defined* — A benchmark focusing on gradient computation via the adjoint-state method.
 
 ### 🛢️ Reservoir Simulation
 
 1. **Sparse Matrix-Matrix Multiplication (SpMM) Kernel**  
    Extracted from the [OPM Flow](https://opm-project.org) reservoir simulator.  
-   *Code will be integrated into this repository at a later stage.*
+   [Repo: `opm-simulators`](https://github.com/OPM/opm-simulators)  -- *Code will be integrated into this repository at a later stage.*
 
-2. **Linear Solver**  
-   Also extracted from [OPM Flow](https://opm-project.org), this benchmark targets iterative solvers (e.g., CG, BiCGStab) used in large-scale reservoir simulation workflows.
-   [Repo: `opm-simulators`](https://github.com/OPM/opm-simulators)
-   *Code will be integrated into this repository at a later stage.*
+3. **Linear Solver**  
+   Also extracted from [OPM Flow](https://opm-project.org), this benchmark targets iterative solvers (e.g., CG, BiCGStab) used in large-scale reservoir simulation workflows.  
+   [Repo: `opm-simulators`](https://github.com/OPM/opm-simulators)  -- *Code will be integrated into this repository at a later stage.*
 
 ### 🤖 AI for Geosciences
 
@@ -42,8 +41,7 @@ The suite is organized into three categories:
 
 2. **Fourier Neural Operator (FNO)**  
    A model for learning mappings between function spaces, suitable for data-driven PDE solutions and surrogate modeling.  
-   [Repo: `neuraloperator`](https://github.com/neuraloperator/neuraloperator)
-   *Code will be integrated into this repository at a later stage.*
+   [Repo: `neuraloperator`](https://github.com/neuraloperator/neuraloperator)  -- *Code will be integrated into this repository at a later stage.*
 
 ## Key Features
 
