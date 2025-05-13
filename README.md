@@ -1,6 +1,6 @@
 # GeoBench
 
-**GeoBench: New HPC Architectures for Geosciences** is a benchmark suite designed to evaluate the performance and scalability of modern computing platforms in geoscientific workloads. It includes representative kernels from seismic imaging, reservoir simulation, and AI-based geoscience models.
+**GeoBench** is a benchmark suite designed to evaluate the performance and scalability of modern computing platforms in geoscientific workloads. It includes representative kernels from seismic imaging, reservoir simulation, and AI-based geoscience models.
 
 ## Objective
 
@@ -16,7 +16,7 @@ The suite is organized into three categories:
 
 1. **Wave Propagation — `miniwave`**  
    A stencil-based PDE kernel used in forward modeling for seismic imaging techniques like RTM and FWI.  
-   [Repo: `simwave`](https://github.com/LSC-Unicamp/simwave)
+   [Repo: `miniwave`](https://github.com/LSC-Unicamp/simwave/tree/master/miniwave))
 
 2. **Reverse Time Migration (RTM)**  
    *To Be Defined* — A simplified RTM workflow involving backward propagation and imaging condition.
