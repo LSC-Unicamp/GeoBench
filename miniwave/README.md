@@ -2,6 +2,10 @@
 
 Miniwave is a streamlined version of Simwave, tailored mainly for educational use and benchmarking of computational systems. Its backend implements only the wave propagation kernel (no absorbing layers, boundary conditions, etc). miniwave.py is a Python wrapper for the forward wave propagation.
 
+`Simwave` is a Python package to simulate the propagation of the constant or variable density acoustic wave in an isotropic 2D/3D medium using the finite difference method. Finite difference kernels of aribtrary spatial order (up to 20th order) are written in C for performance and compiled at run time. These kernels are called via a user-friendly Python interface for easy integration with several scientific and engineering libraries to, for example perform full-waveform inversion.
+
+For further information on the `simwave` design and implementation, please see the paper https://arxiv.org/abs/2201.05278
+
 # Dependencies
 
 `pip install numpy matplotlib findiff h5py`
