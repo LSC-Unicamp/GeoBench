@@ -16,7 +16,7 @@ The suite is organized into three categories:
 
 1. **Wave Propagation — `miniwave`**  
    A stencil-based PDE kernel used in forward modeling for seismic imaging techniques like RTM and FWI.  
-   [Repo: `miniwave`](https://github.com/LSC-Unicamp/simwave/tree/master/miniwave))
+   [Folder: `miniwave`](./miniwave))
 
 2. **Reverse Time Migration (RTM)**  
    *To Be Defined* — A simplified RTM workflow involving backward propagation and imaging condition.
@@ -27,20 +27,23 @@ The suite is organized into three categories:
 ### 🛢️ Reservoir Simulation
 
 1. **Sparse Matrix-Matrix Multiplication (SpMM) Kernel**  
-   Extracted from the [OPM Flow](https://opm-project.org/?page_id=19) reservoir simulator.  
-   [Repo: `opm-simulators`](https://github.com/OPM/opm-simulators)
+   Extracted from the [OPM Flow](https://opm-project.org) reservoir simulator.  
+   *Code will be integrated into this repository at a later stage.*
 
 2. **Linear Solver**  
-   Also extracted from OPM Flow, this benchmark targets iterative solvers (e.g., CG, BiCGStab) used in large-scale reservoir simulation workflows.
+   Also extracted from [OPM Flow](https://opm-project.org), this benchmark targets iterative solvers (e.g., CG, BiCGStab) used in large-scale reservoir simulation workflows.
+   [Repo: `opm-simulators`](https://github.com/OPM/opm-simulators)
+   *Code will be integrated into this repository at a later stage.*
 
 ### 🤖 AI for Geosciences
 
 1. **UNet 3D**  
-   A volumetric convolutional network used in seismic data interpretation, such as facies classification or image translation.
+   *To Be Defined* — A volumetric convolutional network used in seismic data interpretation, such as facies classification or image translation.
 
 2. **Fourier Neural Operator (FNO)**  
    A model for learning mappings between function spaces, suitable for data-driven PDE solutions and surrogate modeling.  
-   [Library: `neuraloperator`](https://github.com/neuraloperator/neuraloperator)
+   [Repo: `neuraloperator`](https://github.com/neuraloperator/neuraloperator)
+   *Code will be integrated into this repository at a later stage.*
 
 ## Key Features
 
